@@ -91,7 +91,7 @@ The dataset includes the following 11 features and 1 target variable:
 
 28 transaction typologies were identified through structured, semi‑structured interviews with eight subject‑matter experts in anti‑money‑laundering. 
 - Eleven typologies were classified as normal: `normal small fan‑out`, `normal fan‑out`, `normal fan‑in`, `normal group`, `normal cash withdrawal`, `normal cash deposit`, `normal periodic`, `normal plus mutual`, `normal mutual`, `normal forward`, and `normal single large`.
-- Seventeen were classified as suspicious: `structuring`, `cash withdrawal`, `deposit‑send`, `smurfing`, `layered fan‑in`, `layered fan‑out`, `stacked bipartite`, `behavioral change 1`, `behavioral change 2`, `bipartite`, `cycle`, `fan‑in`, `gather‑scatter`, `scatter‑gather`, `single large`, `fan‑out`, `and over‑invoicing`.
+- Seventeen were classified as suspicious: `structuring`, `cash withdrawal`, `deposit‑send`, `smurfing`, `layered fan‑in`, `layered fan‑out`, `stacked bipartite`, `behavioral change 1`, `behavioral change 2`, `bipartite`, `cycle`, `fan‑in`, `gather‑scatter`, `scatter‑gather`, `single large`, `fan‑out`, and `over‑invoicing`.
 
 The top 20 laundering types by log count highlight `structuring`, `cash withdrawal`, `deposit‑send`, and `smurfing` as the most frequent suspicious typologies (see Figure 3). By median log amount, `over‑invoicing` dominated the chart and `single large` ranked among the top three, showing that high‑magnitude events drive a different signal than high‑frequency events. Together, these patterns showed that frequency‑based and magnitude‑based indicators captured distinct risk strata and therefore both should be incorporated into the detection pipeline.
 
